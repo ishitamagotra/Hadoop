@@ -1,6 +1,6 @@
-# Introduction
+# Ishita Magotra
 
-Hey this is Ishita Magotra.
+
 
 
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-01/images/me.jpg)
