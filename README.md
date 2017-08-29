@@ -7,7 +7,7 @@ Hey this is Ishita Magotra.
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-01/images/nasa.jpg)
 
 # Where are you from?
-I am from India, Jammu a state of India.
+I am from Jammu,India.
 
 # IT Background
 I have done my bachelors in Engineering (Computer Science) and I have done my internship in HCL,Technologies from India. After my Bachelors, I started working for a company named H.K. Concrete products pvt. Ltd. where I worked for Client Side development. My IT interest is in Project Management.
