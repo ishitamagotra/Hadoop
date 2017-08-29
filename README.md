@@ -17,7 +17,9 @@ I have done my bachelors in Engineering (Computer Science) and I have done my in
 Interesting thing about me is that I love travelling a lot. Apart from IT I also have interest in Music and I have done my Diploma in Music also. I love making new friends and hanging out with them. I also love painting and I do canvas paintings too. 
 
 # Git Tutorial
-
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-01/images/badge1.PNG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-01/images/badge2.PNG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-01/images/badge3.PNG)
 
 
 
