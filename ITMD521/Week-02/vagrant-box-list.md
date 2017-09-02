@@ -1,2 +1,2 @@
 # Screenshot of vagrant box list
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-02/images/abcds%20(1).JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-02/images/vagrant%20box%20list.JPG)
