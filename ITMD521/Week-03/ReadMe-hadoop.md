@@ -3,7 +3,7 @@
 
 
 
-## Screenshot of the command *'hadoop fs -ls ishi/ncdc/sample/' *
+## Screenshot of the command *'hadoop fs -ls ishi/ncdc/sample/'*
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-03/Screenshot%202.JPG)
 
 
