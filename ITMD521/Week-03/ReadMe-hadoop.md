@@ -1,4 +1,4 @@
-## Screenshot of the command __*'hadoop fs -ls ishi/ncdc/'*__
+## Screenshot of the command _*'hadoop fs -ls ishi/ncdc/'*_
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-03/Screenshot1.JPG)
 
 
