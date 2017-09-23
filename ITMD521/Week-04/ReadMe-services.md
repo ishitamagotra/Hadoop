@@ -10,3 +10,9 @@
 
 ## Screenshot of localhost:50070
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-04/images/50070.JPG)
+
+
+
+# Screenshot of all the services working
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-04/images/jps%20phase1.JPG)
+
