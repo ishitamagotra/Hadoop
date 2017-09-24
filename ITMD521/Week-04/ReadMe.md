@@ -1,6 +1,6 @@
 # *Steps to run the code to achieve the desired results* :
 
-The whole code is written in **ReadMe-JavaCode.md file** For code please follow that file.
+The whole code is written in **MaxTemp.java file** For code please follow that file.
 
 
 Create a Schema named **"Phase3"** in the mysql server and use this **Phase3** for further steps.
