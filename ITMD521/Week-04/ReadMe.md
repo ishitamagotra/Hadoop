@@ -4,7 +4,7 @@ Create a Schema named "Phase3" in the mysql server anf use this Phase3 for furth
 
 1. Copy the eclipse project into Vagrant_getting_started.
 2. By using Power shell, Start the vagrant by giving a command: vagrant up
-3. Start the Vagrant machine by using the command: vagrant ssh
+3. Start the Vagrant machine by using the command: <b> vagrant ssh <b>
 4. Now navigate to the home directory by using the command: cd/
 5. Change the directory to see the project name "max_temp"
 6. Copy all the .gz files in the src folder of the project,to get the dataset.
