@@ -11,8 +11,8 @@ Create a Schema named **"Phase3"** in the mysql server and use this **Phase3** f
 4. Now navigate to the home directory by using the command: **cd/**
 5. Change the directory to see the project name **"max_temp"**
 6. Copy all the .gz files in the src folder of the project, to get the dataset.
-7. Compile the project by navigating to the directory src by using the command **javac max_temp/Max_temperature.java**
-8. Run the project by using the command **java max_temp/Max_temperature**
+7. Compile the project by navigating to the directory src by using the command **javac max_temp/MaxTemp.java**
+8. Run the project by using the command **java max_temp/MaxTemp**
 
 After running the program, we will have a choice to execute different datasets i.e **Dataset 1** or **Dataset 2**
 
