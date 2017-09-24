@@ -14,5 +14,5 @@
 
 
 # Screenshot of all the services working via. jps command
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-04/images/jps%20phase1.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-04/images/nodes.JPG)
 
