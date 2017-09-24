@@ -1,6 +1,6 @@
 # *Steps to run the code to achieve the desired results* :
 
-Create a Schema named "Phase3" in the mysql server anf use this Phase3 for further steps.
+Create a Schema named **"Phase3"** in the mysql server anf use this Phase3 for further steps.
 
 1. Copy the eclipse project into Vagrant_getting_started.
 2. By using Power shell, Start the vagrant by giving a command: **vagrant up**
