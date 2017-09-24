@@ -70,7 +70,7 @@ public class MaxTemp {
 			@SuppressWarnings("resource")
 			Scanner scanner = new Scanner(System.in);
 			
-			System.out.println("Please select your dataset (1/2):");
+			System.out.println("Select your dataset (1/2):");
 			 int inputScanner = scanner.nextInt();
 			 switch (inputScanner) {
 			case 1: 
