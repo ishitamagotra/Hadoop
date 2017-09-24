@@ -11,7 +11,7 @@ Create a Schema named **"Phase3"** in the mysql server anf use this Phase3 for f
 7. Compile the project by navigating to the directory src by using the command **javac max_temp/Max_temperature.java**
 8. Run the project by using the command **java max_temp/Max_temperature**
 
-After running the program, we will have a choice to execute different datasets.
+After running the program, we will have a choice to execute different datasets i.e **Dataset1** or **Dataset2**
 
 
 # *Screenshot for Dataset 1 for the year 1990 and 1991*
