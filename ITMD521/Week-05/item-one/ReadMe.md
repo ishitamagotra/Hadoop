@@ -7,5 +7,5 @@
 
 
 
-# Screenshot of History Server with successful job completion
+# Screenshot of History Server with successful completion of the job
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-05/item-one/localhost%201.JPG)
