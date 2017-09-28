@@ -1,4 +1,4 @@
-Instructions to Compile and Run the code :
+# Instructions to Compile and Run the code :
 
 1. Using Power Shell, Start the vagrant by using a command: **vagrant up**
 2. Now, start the machine by using the command: **vagrant ssh**
