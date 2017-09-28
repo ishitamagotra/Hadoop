@@ -13,10 +13,11 @@
                                                **mv MaxTemperatureReducer.java MaxVisibilityReducer.java** ,
                                                **mv MaxTemperature.java MaxVisibility.java** ,
                                                **mv MaxTemperatureWithCombiner.java MaxVisibilityWithCombiner.java**
-11. Now, compile the java files using the command:**hadoop com.sun.tools.javac.Main MaxVisibility*.java**
-12. Create a jar file as : **jar cf mv.jar MaxVisibility*.class**
-13. To, find the output use the command: **hadoop jar mv.jar MaxVisibility ima/ncdc/90919293/90919293.txt output/ncdc/90919293/17
-                                         **hadoop fs -cat output/ncdc/90919293/17/part-r-00000**
+11. Compile all the java files using the command: **hadoop com.sun.tools.javac.Main MaxVisibility*.java**
+12. Create a jar file as: **jar cf mv.jar MaxVisibility*.class**
+13. To, find the output use the command: **hadoop jar mv.jar MaxVisibility ima/ncdc/90919293/90919293.txt output/ncdc/90919293/17**. This will perform a map reduce task. 
+14. Final output will be displayed using the command:**hadoop fs -cat output/ncdc/90919293/17/part-r-00000** 
+
                                          
                                          
 
