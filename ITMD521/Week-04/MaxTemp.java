@@ -50,7 +50,7 @@ public class MaxTemp {
 		try
 		{
 			Class.forName("com.mysql.jdbc.Driver");
-			imConnection = DriverManager.getConnection("jdbc:mysql://localhost/Phase3", "root","Happy@123");
+			imConnection = DriverManager.getConnection("jdbc:mysql://localhost/Phase3", "root","itmd521");
 			imStatement = imConnection.createStatement();						
 		}
 		catch(Exception e)
