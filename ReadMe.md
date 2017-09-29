@@ -3,8 +3,8 @@
 
 
 
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-01/images/me.jpg)
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-01/images/nasa.jpg)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-01/images/me.jpg)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-01/images/nasa.jpg)
 
 # Where are you from?
 I am from India, Jammu a state of India.
