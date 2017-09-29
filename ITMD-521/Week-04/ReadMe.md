@@ -18,8 +18,8 @@ After running the program, we will have a choice to execute different datasets i
 
 
 # *Screenshot for Dataset 1 for the year 1990 and 1991*
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-04/images/datas1.1.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-04/images/datas1.1.JPG)
 
 
 # *Screenshot for Dataset 2 for the year 1992 and 1993*
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD521/Week-04/images/datas2.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-04/images/datas2.JPG)
