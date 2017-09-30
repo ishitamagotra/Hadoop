@@ -14,8 +14,8 @@
                                                **mv MaxTemperature.java MinimumTemperatureperyear.java** ,
                                                **mv MaxTemperatureWithCombiner.java MinTemperatureWithCombiner.java**
 11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main MinimumTemperatureperyear*.java
-12. Create a jar file as: **jar cf mv.jar MinimumTemperatureperyear*.class**
-13. To, find the output use the command: **hadoop jar mv.jar MinimumTemperatureperyear ima/ncdc/90919293/90919293.txt output/ncdc/90919293/13**. This will perform a map reduce task. 
+12. Create a jar file as: **jar cf mt.jar MinimumTemperatureperyear*.class**
+13. To, find the output use the command: **hadoop jar mt.jar MinimumTemperatureperyear ima/ncdc/90919293/90919293.txt output/ncdc/90919293/13**. This will perform a map reduce task. 
 14. Final output will be displayed using the command:**hadoop fs -cat output/ncdc/90919293/13/part-r-00000** 
 
 
