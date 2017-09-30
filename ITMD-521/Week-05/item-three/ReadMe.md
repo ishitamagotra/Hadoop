@@ -26,4 +26,4 @@
                                                      **hadoop fs -cat output/ncdc/92/1/part-r-00000**,
                                                      **hadoop fs -cat output/ncdc/93/1/part-r-00000**
                                                      
- SO, this is the final output of all the individual files.                                                   
+ So, this is the final output of all the individual files.                                                   
