@@ -2,9 +2,9 @@
 
 1. Using Power Shell, Start the vagrant by using a command: **vagrant up**
 2. Now, start the machine by using the command: **vagrant ssh**
-3. Make an input directory using the command: **hadoop fs -mkdir -p ima/ncdc/1990/**
-                                              **hadoop fs -mkdir -p ima/ncdc/1991/**
-                                               **hadoop fs -mkdir -p ima/ncdc/1992/**
+3. Make an input directory using the command: **hadoop fs -mkdir -p ima/ncdc/1990/**, 
+                                              **hadoop fs -mkdir -p ima/ncdc/1991/**, 
+                                               **hadoop fs -mkdir -p ima/ncdc/1992/**, 
                                                **hadoop fs -mkdir -p ima/ncdc/1993/**
 5. Next, Copy from your Local machine all the txt files to the input directory using the command: **hadoop fs -copyFromLocal /home/vagrant/1990-sample.txt ima/ncdc/1990/**
 **hadoop fs -copyFromLocal /home/vagrant/1991-sample.txt ima/ncdc/1991/**
