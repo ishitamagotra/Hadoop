@@ -12,7 +12,7 @@
 10. To rename the file now follow the command: **mv MaxTemperatureMapper.java MinimumTemperatureperyearMapper.java** ,
                                                **mv MaxTemperatureReducer.java MinimumTemperatureperyearReducer.java** ,
                                                **mv MaxTemperature.java MinimumTemperatureperyear.java** ,
-                                               **mv MaxTemperatureWithCombiner.java MinTemperatureWithCombiner.java**
+                                               **mv MaxTemperatureWithCombiner.java MinimumTemperatureperyearWithCombiner.java**
 11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main MinimumTemperatureperyear*.java
 12. Create a jar file as: **jar cf mt.jar MinimumTemperatureperyear*.class**
 13. To, find the output use the command: **hadoop jar mt.jar MinimumTemperatureperyear ima/ncdc/90919293/90919293.txt output/ncdc/90919293/13**. This will perform a map reduce task. 
