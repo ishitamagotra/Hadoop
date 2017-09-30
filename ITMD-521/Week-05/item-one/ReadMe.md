@@ -5,7 +5,7 @@
 3. Next, Rename the file using the command: **cat 1990-sample.txt 1991-sample.txt 1992-sample.txt 1993-sample.txt > 90919293.txt**
 4. Make an input directory using the command: **hadoop fs -mkdir -p ima/ncdc/90919293/**
 5. Next, Copy from your Local machine all the txt files to the input directory using the command: **hadoop fs -copyFromLocal 90919293.txt ima/ncdc/90919293**
-6. Copy all the Maxtemp java files with the command:**/hadoop-book/ch02-intro/src/main/java$ cp MaxTemperature*.java ~/**
+6. Copy all the Max Temperature java files with the command:**/hadoop-book/ch02-intro/src/main/java$ cp MaxTemperature*.java ~/**
 7. Navigate to home directory using the command: **cd~**
 8. Now do an **ls** to see where all the txt files which were copied from local system into input directory are available. 
 9. Using, **vi** or **vim** make changes to MaxTemperatureMapper.java , MaxTemperatureReducer.java , MaxTemperature.java , MaxTemperatureWithCombiner.java.
