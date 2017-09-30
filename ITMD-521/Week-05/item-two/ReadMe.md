@@ -9,13 +9,13 @@
 7. Navigate to home directory using the command: **cd~**
 8. Now do an **ls** to see where all the txt files which were copied from local system into input directory are available. 
 9. Using, **vi** or **vim** make changes to MaxTemperatureMapper.java , MaxTemperatureReducer.java , MaxTemperature.java , MaxTemperatureWithCombiner.java.
-10. To rename the file now follow the command: **mv MaxTemperatureMapper.java MinTemperatureMapper.java** ,
-                                               **mv MaxTemperatureReducer.java MinTemperatureReducer.java** ,
-                                               **mv MaxTemperature.java MinTemperature.java** ,
+10. To rename the file now follow the command: **mv MaxTemperatureMapper.java MinimumTemperatureperyearMapper.java** ,
+                                               **mv MaxTemperatureReducer.java MinimumTemperatureperyearReducer.java** ,
+                                               **mv MaxTemperature.java MinimumTemperatureperyear.java** ,
                                                **mv MaxTemperatureWithCombiner.java MinTemperatureWithCombiner.java**
-11. Compile all the java files using the command: **hadoop com.sun.tools.javac.Main MinTemperature*.java**
-12. Create a jar file as: **jar cf mv.jar MinTemperature*.class**
-13. To, find the output use the command: **hadoop jar mv.jar MinTemperature ima/ncdc/90919293/90919293.txt output/ncdc/90919293/13**. This will perform a map reduce task. 
+11. Compile all the java files using the command: **hadoop com.sun.tools.javac.Main MinimumTemperatureperyear*.java**
+12. Create a jar file as: **jar cf mv.jar MinimumTemperatureperyear*.class**
+13. To, find the output use the command: **hadoop jar mv.jar MinimumTemperatureperyear ima/ncdc/90919293/90919293.txt output/ncdc/90919293/13**. This will perform a map reduce task. 
 14. Final output will be displayed using the command:**hadoop fs -cat output/ncdc/90919293/13/part-r-00000** 
 
 
