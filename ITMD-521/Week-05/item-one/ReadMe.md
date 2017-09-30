@@ -9,13 +9,13 @@
 7. Navigate to home directory using the command: **cd~**
 8. Now do an **ls** to see where all the txt files which were copied from local system into input directory are available. 
 9. Using, **vi** or **vim** make changes to MaxTemperatureMapper.java , MaxTemperatureReducer.java , MaxTemperature.java , MaxTemperatureWithCombiner.java.
-10. To rename the file now follow the command: **mv MaxTemperatureMapper.java MaxVisibilityMapper.java** ,
-                                               **mv MaxTemperatureReducer.java MaxVisibilityReducer.java** ,
-                                               **mv MaxTemperature.java MaxVisibility.java** ,
-                                               **mv MaxTemperatureWithCombiner.java MaxVisibilityWithCombiner.java**
+10. To rename the file now follow the command: **mv MaxTemperatureMapper.java HighestvisibilityperyearMapper.java** ,
+                                               **mv MaxTemperatureReducer.java HighestvisibilityperyearReducer.java** ,
+                                               **mv MaxTemperature.java Highestvisibilityperyear.java** ,
+                                               **mv MaxTemperatureWithCombiner.java HighestvisibilityperyearWithCombiner.java**
 11. Compile all the java files using the command: **hadoop com.sun.tools.javac.Main MaxVisibility*.java**
 12. Create a jar file as: **jar cf mv.jar MaxVisibility*.class**
-13. To, find the output use the command: **hadoop jar mv.jar MaxVisibility ima/ncdc/90919293/90919293.txt output/ncdc/90919293/17**. This will perform a map reduce task. 
+13. To, find the output use the command: **hadoop jar hv.jar Highestvisibilityperyear ima/ncdc/90919293/90919293.txt output/ncdc/90919293/17**. This will perform a map reduce task. 
 14. Final output will be displayed using the command:**hadoop fs -cat output/ncdc/90919293/17/part-r-00000** 
 
                                          
