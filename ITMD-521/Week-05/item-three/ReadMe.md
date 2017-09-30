@@ -6,9 +6,9 @@
                                               **hadoop fs -mkdir -p ima/ncdc/1991/**, 
                                                **hadoop fs -mkdir -p ima/ncdc/1992/**, 
                                                **hadoop fs -mkdir -p ima/ncdc/1993/**
-5. Next, Copy from your Local machine all the txt files to the input directory using the command: **hadoop fs -copyFromLocal /home/vagrant/1990-sample.txt ima/ncdc/1990/**
-**hadoop fs -copyFromLocal /home/vagrant/1991-sample.txt ima/ncdc/1991/**
-**hadoop fs -copyFromLocal /home/vagrant/1992-sample.txt ima/ncdc/1992/**
+5. Next, Copy from your Local machine all the txt files to the input directory using the command: **hadoop fs -copyFromLocal /home/vagrant/1990-sample.txt ima/ncdc/1990/**, 
+**hadoop fs -copyFromLocal /home/vagrant/1991-sample.txt ima/ncdc/1991/**, 
+**hadoop fs -copyFromLocal /home/vagrant/1992-sample.txt ima/ncdc/1992/**, 
 **hadoop fs -copyFromLocal /home/vagrant/1993-sample.txt ima/ncdc/1993/**
 6. Copy all the Max Temperature java files with the command:**/hadoop-book/ch02-intro/src/main/java$ cp MaxTemperature*.java ~/**
 7. Navigate to home directory using the command: **cd~**
