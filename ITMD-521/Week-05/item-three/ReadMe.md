@@ -18,12 +18,14 @@
                                                **mv MaxTemperatureReducer.java InvalidStationIdReducer.java** ,
                                                **mv MaxTemperature.java InvalidStationId.java** ,
                                                
-11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main InvalidStationId*.java
-12. Create a jar file as: jar cf id.jar InvalidStationId*.class
-13. To, find the output use the command: **hadoop jar id.jar InvalidStationId ima/ncdc/1990/1990-sample.txt output/ncdc/90/1** , **hadoop jar id.jar InvalidStationId ima/ncdc/1991/1991-sample.txt output/ncdc/91/1**,    **hadoop jar id.jar InvalidStationId ima/ncdc/1992/1992-sample.txt output/ncdc/92/1** ,   **hadoop jar id.jar InvalidStationId ima/ncdc/1993/1993-sample.txt output/ncdc/93/1**.This will perform a map reduce task. 
-14. Final output will be displayed using the command:**hadoop fs -cat output/ncdc/90/1/part-r-00000**, 
-                                                     **hadoop fs -cat output/ncdc/91/1/part-r-00000**, 
-                                                     **hadoop fs -cat output/ncdc/92/1/part-r-00000**,
-                                                     **hadoop fs -cat output/ncdc/93/1/part-r-00000**
+11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main InvalidTemperatureRecordStationId*.java
+12. Create a jar file as: jar cf id.jar InvalidTemperatureRecordStationId*.class
+13. To, find the output use the command: **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/1990/1990-sample.txt output/ncdc/90/2** , **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/1991/1991-sample.txt output/ncdc/91/3**,    **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/1992/1992-sample.txt output/ncdc/92/2** ,   **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/1993/1993-sample.txt output/ncdc/93/2**.This will perform a map reduce task. 
+14. Final output will be displayed using the command:**hadoop fs -cat output/ncdc/90/2/part-r-00000**, 
+                                                     **hadoop fs -cat output/ncdc/91/2/part-r-00000**, 
+                                                     **hadoop fs -cat output/ncdc/92/2/part-r-00000**,
+                                                     **hadoop fs -cat output/ncdc/93/2/part-r-00000**
                                                      
- So, this is the final output of all the individual files.                                                   
+ So, this is the final output of all the individual files.
+ 
+ # Screenshot of Station ID that has most invalid temperature records
