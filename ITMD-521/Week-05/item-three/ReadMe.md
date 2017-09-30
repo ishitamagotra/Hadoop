@@ -17,7 +17,7 @@
 10. To rename the file now follow the command: **mv MaxTemperatureMapper.java InvalidStationIdMapper.java** ,
                                                **mv MaxTemperatureReducer.java InvalidStationIdReducer.java** ,
                                                **mv MaxTemperature.java InvalidStationId.java** ,
-                                               **mv MaxTemperatureWithCombiner.java InvalidStationIdWithCombiner.java**
+                                               
 11. Compile all the java files using the command: **hadoop com.sun.tools.javac.Main InvalidStationId*.java**
 12. Create a jar file as: jar cf id.jar Highestvisibilityperyear*.class
 13. To, find the output use the command: **hadoop jar id.jar InvalidStationId ima/ncdc/1991/1991-sample.txt output/ncdc/91/1** **hadoop jar id.jar InvalidStationId ima/ncdc/1992/1992-sample.txt output/ncdc/92/1**  **hadoop jar id.jar InvalidStationId ima/ncdc/1993/1993-sample.txt output/ncdc/93/1**.This will perform a map reduce task. 
