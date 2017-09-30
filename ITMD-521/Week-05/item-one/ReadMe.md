@@ -31,4 +31,4 @@
 
 
 # Screenshot of History Server to show the successful completion of the job
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-one/localhost%201.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-one/Jobhistory.JPG)
