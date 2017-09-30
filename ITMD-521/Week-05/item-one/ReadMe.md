@@ -13,8 +13,8 @@
                                                **mv MaxTemperatureReducer.java HighestvisibilityperyearReducer.java** ,
                                                **mv MaxTemperature.java Highestvisibilityperyear.java** ,
                                                **mv MaxTemperatureWithCombiner.java HighestvisibilityperyearWithCombiner.java**
-11. Compile all the java files using the command: **hadoop com.sun.tools.javac.Main MaxVisibility*.java**
-12. Create a jar file as: **jar cf mv.jar MaxVisibility*.class**
+11. Compile all the java files using the command: **hadoop com.sun.tools.javac.Main Highestvisibilityperyear*.java**
+12. Create a jar file as: jar cf hv.jar Highestvisibilityperyear*.class
 13. To, find the output use the command: **hadoop jar hv.jar Highestvisibilityperyear ima/ncdc/90919293/90919293.txt output/ncdc/90919293/17**. This will perform a map reduce task. 
 14. Final output will be displayed using the command:**hadoop fs -cat output/ncdc/90919293/17/part-r-00000** 
 
