@@ -16,8 +16,8 @@
                                                
                                                
 11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main InvalidTempRecordStationId*.java
-12. Create a jar file as: jar cf id.jar InvalidTempRecordStationId*.class
-13. To, find the output use the command: **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/90919293/90919293.txt output/ncdc/
+12. Create a jar file as: jar cf itrsd.jar InvalidTempRecordStationId*.class
+13. To, find the output use the command: **hadoop jar idtrsd.jar InvalidTemperatureRecordStationId ima/ncdc/90919293/90919293.txt output/ncdc/
 90919293/7**.This will perform a map reduce task. 
 14. Final output will be displayed using the command: **hadoop fs -cat output/ncdc/90919293/7/part-r-00000**. It will be in percentage.
                                                      
