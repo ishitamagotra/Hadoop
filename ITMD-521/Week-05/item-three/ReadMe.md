@@ -2,30 +2,25 @@
 
 1. Using Power Shell, Start the vagrant by using a command: **vagrant up**
 2. Now, start the machine by using the command: **vagrant ssh**
-3. Make an input directory using the command: **hadoop fs -mkdir -p ima/ncdc/1990/**, 
-                                              **hadoop fs -mkdir -p ima/ncdc/1991/**, 
-                                               **hadoop fs -mkdir -p ima/ncdc/1992/**, 
-                                               **hadoop fs -mkdir -p ima/ncdc/1993/**
-5. Next, Copy from your Local machine all the txt files to the input directory using the command: **hadoop fs -copyFromLocal /home/vagrant/1990-sample.txt ima/ncdc/1990/**, 
-**hadoop fs -copyFromLocal /home/vagrant/1991-sample.txt ima/ncdc/1991/**, 
-**hadoop fs -copyFromLocal /home/vagrant/1992-sample.txt ima/ncdc/1992/**, 
-**hadoop fs -copyFromLocal /home/vagrant/1993-sample.txt ima/ncdc/1993/**
+3. Next, Rename the file using the command: **cat 1990-sample.txt 1991-sample.txt 1992-sample.txt 1993-sample.txt > 90919293.txt**
+4.Make an input directory using the command: **hadoop fs -mkdir -p ima/ncdc/90919293/**
+5. Next, Copy from your Local machine all the txt files to the input directory using the command: **hadoop fs -copyFromLocal 90919293.txt ima/ncdc/90919293**
 6. Copy all the Max Temperature java files with the command:**/hadoop-book/ch02-intro/src/main/java$ cp MaxTemperature*.java ~/**
 7. Navigate to home directory using the command: **cd~**
 8. Now do an **ls** to see whether all the txt files which were copied from the local system into the input directory are available. 
 9. Using, **vi** or **vim** make changes to MaxTemperatureMapper.java , MaxTemperatureReducer.java , MaxTemperature.java , MaxTemperatureWithCombiner.java.
-10. To rename the file now follow the command: **mv MaxTemperatureMapper.java InvalidStationIdMapper.java** ,
-                                               **mv MaxTemperatureReducer.java InvalidStationIdReducer.java** ,
-                                               **mv MaxTemperature.java InvalidStationId.java** ,
+10. To rename the file now follow the command: **mv MaxTemperatureMapper.java InvalidTemperatureRecordStationIdMapper.java** ,
+                                               **mv MaxTemperatureReducer.java InvalidTemperatureRecordStationIdReducer.java** ,
+                                               **mv MaxTemperature.java InvalidTemperatureRecordStationId.java** ,
+                                               **mv MaxTemperatureWithCombiner.java InvalidTemperatureRecordStationIdWithCombiner.java**
+                                               
                                                
 11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main InvalidTemperatureRecordStationId*.java
 12. Create a jar file as: jar cf id.jar InvalidTemperatureRecordStationId*.class
-13. To, find the output use the command: **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/1990/1990-sample.txt output/ncdc/90/2** , **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/1991/1991-sample.txt output/ncdc/91/3**,    **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/1992/1992-sample.txt output/ncdc/92/2** ,   **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/1993/1993-sample.txt output/ncdc/93/2**.This will perform a map reduce task. 
-14. Final output will be displayed using the command:**hadoop fs -cat output/ncdc/90/2/part-r-00000**, 
-                                                     **hadoop fs -cat output/ncdc/91/2/part-r-00000**, 
-                                                     **hadoop fs -cat output/ncdc/92/2/part-r-00000**,
-                                                     **hadoop fs -cat output/ncdc/93/2/part-r-00000**
+13. To, find the output use the command: **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/90919293/90919293.txt output/ncdc/
+90919293/6**.This will perform a map reduce task. 
+14. Final output will be displayed using the command: **hadoop fs -cat output/ncdc/90919293/6/part-r-00000**
                                                      
- So, this is the final output of all the individual files.
  
- # Screenshot of Station ID that has most invalid temperature records
+# Screenshot of Station ID that has most invalid temperature records
+![Ishita Magotra]()
