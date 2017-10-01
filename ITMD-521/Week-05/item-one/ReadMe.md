@@ -8,7 +8,7 @@
 6. Copy all the Max Temperature java files with the command:**/hadoop-book/ch02-intro/src/main/java$ cp MaxTemperature*.java ~/**
 7. Navigate to home directory using the command: **cd~**
 8. Now do an **ls** to see whether all the txt files which were copied from the local system into the input directory are available. 
-9. Using, **vi** or **vim** make changes to MaxTemperatureMapper.java , MaxTemperatureReducer.java , MaxTemperature.java , MaxTemperatureWithCombiner.java.
+9. Using, **vi** or **vim** make changes to MaxTemperatureMapper.java , MaxTemperatureReducer.java , MaxTemperature.java , MaxTemperatureWithCombiner.java files.
 10. To rename the file now follow the command: **mv MaxTemperatureMapper.java HighestvisibilityperyearMapper.java** ,
                                                **mv MaxTemperatureReducer.java HighestvisibilityperyearReducer.java** ,
                                                **mv MaxTemperature.java Highestvisibilityperyear.java** ,
