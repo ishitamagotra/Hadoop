@@ -19,9 +19,9 @@
 12. Create a jar file as: jar cf id.jar InvalidTemperatureRecordStationId*.class
 13. To, find the output use the command: **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/90919293/90919293.txt output/ncdc/
 90919293/6**.This will perform a map reduce task. 
-14. Final output will be displayed using the command: **hadoop fs -cat output/ncdc/90919293/6/part-r-00000**
+14. Final output will be displayed using the command: **hadoop fs -cat output/ncdc/90919293/6/part-r-00000**. It will be in percentage.
                                                      
  
-# Screenshot of Station ID that has most invalid temperature records
+# Screenshot of Station ID that has most invalid temperature records in Percentage: 
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/Percentage%20output.JPG)
 
