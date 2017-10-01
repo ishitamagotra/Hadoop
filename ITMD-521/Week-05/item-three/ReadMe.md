@@ -9,17 +9,17 @@
 7. Navigate to home directory using the command: **cd~**
 8. Now do an **ls** to see whether all the txt files which were copied from the local system into the input directory are available. 
 9. Using, **vi** or **vim** make changes to MaxTemperatureMapper.java , MaxTemperatureReducer.java , MaxTemperature.java , MaxTemperatureWithCombiner.java.
-10. To rename the file now follow the command: **mv MaxTemperatureMapper.java InvalidTemperatureRecordStationIdMapper.java** ,
-                                               **mv MaxTemperatureReducer.java InvalidTemperatureRecordStationIdReducer.java** ,
-                                               **mv MaxTemperature.java InvalidTemperatureRecordStationId.java** ,
-                                               **mv MaxTemperatureWithCombiner.java InvalidTemperatureRecordStationIdWithCombiner.java**
+10. To rename the file now follow the command: **mv MaxTemperatureMapper.java InvalidTempRecordStationIdMapper.java** ,
+                                               **mv MaxTemperatureReducer.java InvalidTempRecordStationIdReducer.java** ,
+                                               **mv MaxTemperature.java InvalidTempRecordStationId.java** ,
+                                               **mv MaxTemperatureWithCombiner.java InvalidTempRecordStationIdWithCombiner.java**
                                                
                                                
-11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main InvalidTemperatureRecordStationId*.java
-12. Create a jar file as: jar cf id.jar InvalidTemperatureRecordStationId*.class
+11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main InvalidTempRecordStationId*.java
+12. Create a jar file as: jar cf id.jar InvalidTempRecordStationId*.class
 13. To, find the output use the command: **hadoop jar id.jar InvalidTemperatureRecordStationId ima/ncdc/90919293/90919293.txt output/ncdc/
-90919293/6**.This will perform a map reduce task. 
-14. Final output will be displayed using the command: **hadoop fs -cat output/ncdc/90919293/6/part-r-00000**. It will be in percentage.
+90919293/7**.This will perform a map reduce task. 
+14. Final output will be displayed using the command: **hadoop fs -cat output/ncdc/90919293/7/part-r-00000**. It will be in percentage.
                                                      
  
 # Screenshot of Station ID that has most invalid temperature records in Percentage: 
