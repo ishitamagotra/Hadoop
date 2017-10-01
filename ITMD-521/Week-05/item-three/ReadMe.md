@@ -23,4 +23,5 @@
                                                      
  
 # Screenshot of Station ID that has most invalid temperature records
-![Ishita Magotra]()
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/Percentage%20output.JPG)
+
