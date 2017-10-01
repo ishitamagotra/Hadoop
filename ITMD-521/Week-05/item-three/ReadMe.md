@@ -28,3 +28,5 @@
 # Screenshot of History Server to show the successful completion of the job:
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/Jobhistory.JPG)
 
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/JobHistory1.JPG)
+
