@@ -12,31 +12,31 @@ public class MaxTempPerLattitudeMapper
       throws IOException, InterruptedException {
     String line = value.toString();
     char la;
-    String LYear = "";
+    String LY = "";
     if (line.charAt(28) == '-') { 
         la = line.charAt(29); 
 	
 	{
   if(la=='0')
-		LYear = "Latitude between  0 to -9";
-	if(la=='1')
-		LYear = "Latitude between -10 to -19";
-	if(la=='2')
-		LYear = "Latitude between -20 to -29";
-	if(la=='3')
-		LYear = "Latitude between -30 to -39";		
-	if(la=='4')
-		LYear = "Latitude between -40 to -49";
-	if(la=='5')
-		LYear = "Latitude between -50 to -59";
-	if(la=='6')
-		LYear = "Latitude between -60 to -69";
-	if(la=='7')
-		LYear = "Latitude between -70 to -79";
-	if(la=='8')
-		LYear = "Latitude between -80 to -89";
+		LY = "Latitude between  0 to -9";
+	else if(la=='1')
+		LY = "Latitude between -10 to -19";
+	else if(la=='2')
+		LY = "Latitude between -20 to -29";
+	else if(la=='3')
+		LY = "Latitude between -30 to -39";		
+	else if(la=='4')
+		LY = "Latitude between -40 to -49";
+	else if(la=='5')
+		LY = "Latitude between -50 to -59";
+	else if(la=='6')
+		LY = "Latitude between -60 to -69";
+	else if(la=='7')
+		LY = "Latitude between -70 to -79";
+	else if(la=='8')
+		LY = "Latitude between -80 to -89";
 	else
-		LYear = "Latitude between -90       ";
+		LY = "Latitude between -90       ";
       }
     }
     int airTemperature;
