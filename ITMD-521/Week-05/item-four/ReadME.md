@@ -20,6 +20,17 @@
 13. To, find the output use the command: **hadoop jar ml.jar MaxTempPerLattitude input/9093/9093.txt /out1/9093/2 **.This will perform a map reduce task. 
 14. Final output will be displayed using the command: **hadoop fs -cat out1/9093/2/part-r-00000**.
 
+
+# Assumptions Made in code: MaxTempPerLattitudeMapper.java
+1. Consider only the southern hemisphere, Firstly sorted out the Lattitude values having '-'
+2.Now, we collect only the first two digits of the Lattitude values, since they are already 1000 times the original in the dataset.
+3. Followed by this we, wrote a If statement, consolidating the values for every 10 increments.
+4. Finally, we validated all the values with airTemperature, and sent them to the reducer with key/value pairs.
+
+# Assumptions Made in code: MaxTempPerLattitudeReducer.java
+1. Here, we made the key/value pairs, key as a Text element which was initialized in If statement previously in the Mapper.
+2. The value as airTemperature,to find the MAX temperature by doing groupby among the 'Key'.
+
 # Output is as follows:
 ![I M](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-four/item-4.1.JPG)
 
