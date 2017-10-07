@@ -17,7 +17,7 @@
                                                
 11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main MaxTempPerLattitude*.java
 12. Create a jar file as: jar cf ml.jar MaxTempPerLattitude*.class
-13. To, find the output use the command: **hadoop jar ml.jar MaxTempPerLattitude input/9093/9093.txt /out1/9093/2 **.This will perform a map reduce task. 
+13. To, find the output use the command: **hadoop jar ml.jar MaxTempPerLattitude input/9093/9093.txt /out1/9093/2**.This will perform a map reduce task. 
 14. Final output will be displayed using the command: **hadoop fs -cat out1/9093/2/part-r-00000**.
 
 
