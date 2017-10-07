@@ -9,24 +9,26 @@
 7. Navigate to home directory using the command: **cd~**
 8. Now do an **ls** to see whether all the txt files which were copied from the local system into the input directory are available. 
 9. Using, **vi** or **vim** make changes to MaxTemperatureMapper.java , MaxTemperatureReducer.java , MaxTemperature.java , MaxTemperatureWithCombiner.java.
-10. To rename the file now follow the command: **mv MaxTemperatureMapper.java InvalidTempRecordStationIdMapper.java** ,
-                                               **mv MaxTemperatureReducer.java InvalidTempRecordStationIdReducer.java** ,
-                                               **mv MaxTemperature.java InvalidTempRecordStationId.java** ,
-                                               **mv MaxTemperatureWithCombiner.java InvalidTempRecordStationIdWithCombiner.java**
+10. To rename the file now follow the command: **mv MaxTemperatureMapper.java InvalidTempMapper.java** ,
+                                               **mv MaxTemperatureReducer.java InvalidTempReducer.java** ,
+                                               **mv MaxTemperature.java InvalidTemp.java**.
                                                
                                                
-11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main InvalidTempRecordStationId*.java
-12. Create a jar file as: jar cf itrsd.jar InvalidTempRecordStationId*.class
-13. To, find the output use the command: **hadoop jar itrsd.jar InvalidTemperatureRecordStationId ima/ncdc/90919293/90919293.txt output/ncdc/
-90919293/7**.This will perform a map reduce task. 
-14. Final output will be displayed using the command: **hadoop fs -cat output/ncdc/90919293/7/part-r-00000**. It will be in percentage.
+11. Compile all the java files using the command: hadoop com.sun.tools.javac.Main InvalidTemp*.java
+12. Create a jar file as: jar cf itrsd.jar InvalidTemp*.class
+13. To, find the output use the command: **hadoop jar itemp.jar InvalidTemp ima/ncdc/90919293/90919293.txt output/ncdc/
+90919293/89**.This will perform a map reduce task. 
+14. Final output will be displayed using the command: **hadoop fs -cat output/ncdc/90919293/89/part-r-00000**. It will be in percentage.
+
+# Screenshot of Mapreduce
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/item-3.1.JPG)
                                                      
  
 # Screenshot of Station ID that has most invalid temperature records in Percentage: 
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/OUTPUTPercent.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/item-3.2.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/item-3.3.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/item-3.4.JPG)
 
 # Screenshot of History Server to show the successful completion of the job:
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/JOBhis.JPG)
-
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/Jobhis1.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-05/item-three/JobHistory.JPG)
 
