@@ -1,5 +1,5 @@
 # Steps to follow to Create a .sql script named create.sql that will create the database hadoopguide, table widgets, and follow the schema given in the book
-Created a sql script "create.sql" to create the database named as 'hadoopguide' and table as 'widgets' in mysql. 
+Created a sql script **"create.sql"** to create the database named as 'hadoopguide' and table as 'widgets' in mysql. 
 
 DROP DATABASE hadoopguide is EXISTS;
 CREATE DATABASE hadoopguide;
