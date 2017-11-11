@@ -41,7 +41,7 @@ In order to run the java file , we introduce **SQOOP_HOME=/home/vagrant/sqoop** 
 Then, from the Hadoop book chapter-15 we will use the MaxWidgetID.java. We will compile two java file MaxWidgetID.java and Widget.java by running the command 
 **hadoop  com.sun.tools.javac.Main MaxWidgetId.java Widget.java**
 
- And then create a sqoop-examples.jar by taking all the class file  and run the command**jar cf sqoop-examples*.class**
+ And then create a sqoop-examples.jar by taking all the class file  and run the command **jar cf sqoop-examples*.class**
  
 Now in the next step we will run the jar file to find the Max Widget Id from the HFDS which got imported by sqoop.the output is obtained by the command **hadoop fs -cat maxwidget/part-r-00000**
 **I have also submitted a part-r-00000 to get full access to the output**
