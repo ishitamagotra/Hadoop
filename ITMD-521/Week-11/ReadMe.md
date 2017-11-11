@@ -14,6 +14,7 @@ design_date DATE,version INT,design_comment VARCHAR(100));
 
 In this step I have written a java code **"step_2.java"** to access ,generate random records on the basis of 4 records shown in the book and insert 
 those 5000 records into the widget table in the mysql.
+
 **To access the code open the file "step_2.java" as submitted by me.**
 
 ## Output for "step_2.java" are as follows:-
