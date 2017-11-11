@@ -54,7 +54,7 @@ Then, from the Hadoop book chapter-15 we will use the MaxWidgetID.java. We will 
  
 Now in the next step we will run the jar file to find the Max Widget Id from the HFDS which got imported by sqoop.the output is obtained by the command **hadoop fs -cat maxwidget/part-r-00000**
 
-**I have also submitted a part-r-00000 to get full access to the output**
+**I have also submitted a part-r-00000 ans5 to get full access to the output**
 
 ## Output:
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-5.JPG)
