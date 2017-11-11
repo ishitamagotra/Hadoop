@@ -34,6 +34,17 @@ In this step I have created a shell script **"step-4.sh"** to execute the sqoop 
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-4%20continue.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans%204%20output.JPG)
 
+# Steps to follow to Run the MaxWidgetID.java file as detailed under the heading “Working with Imported data”
+
+In order to run the java file , we introduce SQOOP_HOME=/home/vagrant/sqoop in ( .bashrc file) in our classpath.
+Then, from the Hadoop book chapter-15 we will use the MaxWidgetID.java. We will compile two java file MaxWidgetID.java and Widget.java by running the command 
+**hadoop  com.sun.tools.javac.Main MaxWidgetId.java Widget.java**
+ And then create a sqoop-examples.jar by taking all the class file  and run the command **jar cf sqoop-examples*.class**
+Now in the next step we will run the jar file to find the Max Widget Id from the HFDS which got imported by sqoop.the output is obtained by the command **hadoop fs -cat maxwidget/part-r-00000**
+
+![Ishita Magotra]()
+
+
  
 
 
