@@ -19,10 +19,10 @@ those 5000 records into the widget table in the mysql. **To access the code open
 
 In this step I have created a shell script "step-3.sh" to execute the sqoop import statement into the HDFS and the output of hadoop by running the command **hadoop fs -cat widgets/part-m-00000**. **I have also submitted a part-m-00000 file to have full access to the records** 
 
-## Output:
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/step-3.sh)
-
-
+## Output: 
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-3.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/map-reduce%20ans%203%20continue.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans3%20hadoop.JPG)
  
 
 
