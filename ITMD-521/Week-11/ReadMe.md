@@ -61,7 +61,28 @@ Now in the next step we will run the jar file to find the MaxWidget Id from the 
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-5%20continue.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans%20-5%20output.JPG)
 
-# 6. 
+# 6. Steps to Modify the MaxWidgetID.java file to find average price for each widget
+
+Here, I have modified the **MaxWidget.java file** and included that file in this assignment. I make a directory named **part6** to copy Widget.java. To compile the code I used the command **hadoop com.sun.tools.javac.Main MaxWidgetId.java Widget.java** Then to create a jar file I used the command **jar cf part6.jar *.class**
+
+Finally I used the command  **hadoop jar part6.jar MaxWidgetId -libjars $SQOOP_HOME/sqoop-1.4.6.jar** This produced a Map-Reduce job.
+To get the output I used the command **hadoop fs -cat AveragePrice/part-r-00000**
+
+I have also included a **part-r-00000 ans 6** in this assignment
+
+## Output:
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-6.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-6.1.JPG)
+
+# Output of part-r-ooo00
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans-6.1.JPG)
+
+
+
+
+
+
+
 
 
  
