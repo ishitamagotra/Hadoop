@@ -69,7 +69,7 @@ public class MaxWidgetId extends Configured implements Tool {
     String widgets = "widgets";
     
     FileInputFormat.addInputPath(jobObject, new Path("widgets"));
-    FileOutputFormat.setOutputPath(jobObject, new Path("maxWidget"));
+    FileOutputFormat.setOutputPath(jobObject, new Path("MaxWidget"));
 
     jobObject.setMapOutputKeyClass(Text.class);
     jobObject.setMapOutputValueClass(FloatWritable.class);
