@@ -31,7 +31,7 @@ In this step I have created a shell script **"step-3.sh"** to execute the sqoop 
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-3.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/map-reduce%20ans%203%20continue.JPG)
 
-# Output of part-m-00000
+# Output of part-m-00000 containing 5000 records
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans3%20hadoop.JPG)
 
 # 4. Steps to follow to Include a shell script named step-4.sh that only import record 1000-3000 for an sqoop import
@@ -44,7 +44,7 @@ In this step I have created a shell script **"step-4.sh"** to execute the sqoop 
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-4.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/4.JPG)
 
-# Output of part-m-00000
+# Output of part-m-00000 containing 3000 records
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans%204%20output.JPG)
 
 # 5. Steps to follow to Run the MaxWidgetID.java file as detailed under the heading “Working with Imported data”
