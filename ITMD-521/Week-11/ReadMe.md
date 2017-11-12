@@ -40,7 +40,7 @@ In this step I have created a shell script **"step-4.sh"** to execute the sqoop 
 
 ## Output:
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-4.JPG)
-![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-4%20continue.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/4.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans%204%20output.JPG)
 
 # Steps to follow to Run the MaxWidgetID.java file as detailed under the heading “Working with Imported data”
