@@ -82,7 +82,7 @@ I have also included a **part-r-00000 ans 6** in this assignment
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-6.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-6.1.JPG)
 
-# Output of part-r-ooo00
+# Output of part-r-00000
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans-6.1.JPG)
 
 
