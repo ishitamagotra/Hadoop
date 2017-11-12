@@ -49,7 +49,7 @@ In this step I have created a shell script **"step-4.sh"** to execute the sqoop 
 
 # 5. Steps to follow to Run the MaxWidgetID.java file as detailed under the heading “Working with Imported data”
 
-In order to run the java file , we introduce **SQOOP_HOME=/home/vagrant/sqoop** in ( .bashrc file) in our classpath. Then I made a directory sqoop_hw to copy MaxwidgetId.java and Widget.java 
+In order to run the java file , we introduce **SQOOP_HOME=/home/vagrant/sqoop** in ( .bashrc file) in our classpath. Then I made a directory **sqoop_hw** to copy MaxwidgetId.java and Widget.java 
 
 Then, from the Hadoop book chapter-15 we will use the MaxWidgetID.java. We will compile two java file MaxWidgetID.java and Widget.java by running the command 
 **hadoop  com.sun.tools.javac.Main MaxWidgetId.java Widget.java**
