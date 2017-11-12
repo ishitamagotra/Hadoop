@@ -30,6 +30,8 @@ In this step I have created a shell script **"step-3.sh"** to execute the sqoop 
 ## Output: 
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-3.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/map-reduce%20ans%203%20continue.JPG)
+
+# Output of part-m-00000
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans3%20hadoop.JPG)
 
 # 4. Steps to follow to Include a shell script named step-4.sh that only import record 1000-3000 for an sqoop import
@@ -41,6 +43,8 @@ In this step I have created a shell script **"step-4.sh"** to execute the sqoop 
 ## Output:
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-4.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/4.JPG)
+
+# Output of part-m-00000
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans%204%20output.JPG)
 
 # 5. Steps to follow to Run the MaxWidgetID.java file as detailed under the heading “Working with Imported data”
@@ -59,6 +63,8 @@ Now in the next step we will run the jar file to find the MaxWidget Id from the 
 ## Output:
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-5.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-5%20continue.JPG)
+
+# Output of part-r-00000
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/ans%20-5%20output.JPG)
 
 # 6. Steps to Modify the MaxWidgetID.java file to find average price for each widget
