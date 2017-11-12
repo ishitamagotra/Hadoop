@@ -76,6 +76,8 @@ To get the output I used the command **hadoop fs -cat AveragePrice/part-r-00000*
 
 I have also included a **part-r-00000 ans 6** in this assignment
 
+**To access the code use MaxWidget.java file that I have places in this assignment.**
+
 ## Output:
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-6.JPG)
 ![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-11/mr-6.1.JPG)
