@@ -1,3 +1,3 @@
 ﻿# Week-13
 
-![](Results/Result.PNG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-13/Results/Result.png)
