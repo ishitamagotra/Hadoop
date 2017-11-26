@@ -67,7 +67,7 @@ products.show()
    val prd = text.map{case Array(s0, s1, s2, s3,s4) => product(s0, s1, s2, s3,s4)}.toDF
    val catgry_seqn = Seq("category_id", "category_name")
    val catgrydf = category.toDF(catgry_seqn: _*)
-   val catget = catgrydf.selectExpr("category_id","category_name")
+   val catgry = catgrydf.selectExpr("category_id","category_name")
    val joining_df = catgry.join(prd, "category_id")
 
     import org.apache.spark.sql.expressions.Window
