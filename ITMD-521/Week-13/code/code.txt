@@ -74,8 +74,8 @@ products.show()
     val bdf =  joining_df.select(col("category_id"), col("category_name"), col("product_name"), col("price") ,row_number().over(Window.partitionBy(col("category_id")).orderBy(col("price").desc)).alias("Row_Num"))
     val filldf = bdf.where(bdf("Row_Num") <=10)
     val selctDF = filldf.select(col("category_name"),col("product_name"),col("price"))
-    val sortingDF = selctdf.sort(col("category_name"),col("product_name"),col("price"))
-    val rdd_f: org.apache.spark.rdd.RDD[org.apache.spark.sql.Row] = sortDF.rdd
+    val sortingdf = selctdf.sort(col("category_name"),col("product_name"),col("price"))
+    val rdd_f: org.apache.spark.rdd.RDD[org.apache.spark.sql.Row] = sortingdf.rdd
     val rdd_df = rdd_f.map(_.mkString("\t"))
     rdd_df.coalesce(1).saveAsTextFile("hdfs://localhost/user/vagrant/output/5/")
     hadoop fs -cat output/5/part-00000
