@@ -1,6 +1,6 @@
 ## TEST 1
-! [Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/test%201%20graph.JPG)
-! [I M](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/test%201.JPG)
+![Ishita Magotra](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/test%201%20graph.JPG)
+![I M](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/test%201.JPG)
 
 # So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
 ## The Text file as input and with 4 reducers took the least time to finish the job
