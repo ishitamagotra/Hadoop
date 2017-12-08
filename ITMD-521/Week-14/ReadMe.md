@@ -230,7 +230,10 @@ Since this is intermediate compression, it is independent of the file format, so
 ## Analysis for Test 15
 In this test, 1 reducer is suitable for a block size of 512 Mb for 316 splits. With proper observation, it falls first amongst Test 13, Test 14 and Test 15
 
+# TEST 16
 
 
-
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The above output tell the overall execution time comparison for all the 15 tests we have performed.
+2. 
 
