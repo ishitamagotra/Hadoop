@@ -231,9 +231,11 @@ Since this is intermediate compression, it is independent of the file format, so
 In this test, 1 reducer is suitable for a block size of 512 Mb for 316 splits. With proper observation, it falls first amongst Test 13, Test 14 and Test 15
 
 # TEST 16
-
+![im](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/test%2016%20graph.JPG)
 
 ## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
 1. The above output tell the overall execution time comparison for all the 15 tests we have performed.
-2. 
+2. For the gzip files tests with 1 reducer, with combiner and with intermediate compression run fast as compared to other tests.
+3. For Text files, with 4 reducers, with combiners and also with intermediate compression runs faster than other tests.
+4. For Bz files Tests with 1 reducer, with combiner and also with intermediate compression executes faster than other tests. 
 
