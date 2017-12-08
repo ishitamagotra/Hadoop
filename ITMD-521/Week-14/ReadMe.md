@@ -85,6 +85,91 @@ Here, the input file format is independent of the kind of MapReduce process. So,
 Therefore, only one reducer is the good fit for this data.
 This is the best test amongst the Test 5, Test 6 and Test 4 in the cluster and it is also true.
 
+# TEST 6
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%206%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%206.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Bz file as input and with 8 reducers took the least time to finish the job
+2. The Bz file as input and with 2 reducer has taken the maximum time
+3. For reducer 1, the Bz file as input has taken the least MapReduce time
+4. For reducer 2, the Text file as input has taken the least MapReduce time
+5. For reducer 4, the Text file as input has taken the least MapReduce time
+6. For reducer 8, the Bz file as input has taken the least MapReduce time
+7. Hence the Text input file is the most efficient than the Gz file (except for 1 reducer Text file) but same as Bz file.
+
+## Analysis for Test 6
+In this Test the similar 3 scenarios are seen but with the only exception is that now it is with larger file.
+Here the test reside under the second position amongst Test 4, Test 5 and Test 6 and it is true.
+
+# TEST 7
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%207%20graph.JPG)
+![]IM(https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%207.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file as input and with 2 reducers took the least time to finish the job
+2. The Bz file as input and with 8 reducer has taken the maximum time
+3. For reducer 1, the Text file as input has taken the least MapReduce time
+4. For reducer 2, the Text file as input has taken the least MapReduce time
+5 For reducer 4, the Text file as input has taken the least MapReduce time
+8. For reducer 8, the Text file as input has taken the least MapReduce time
+7. Hence the Text input file is the most efficient than the Bz file. 
+
+## Analysis for Test 7
+The least time is consumed by the text file with 2 reducers for data of 169gb but in reality this may harm  the data nodes since 1264 is the split number, So in reality, the least time should be taken by BZ.
+
+# TEST 8
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%208%20graph.JPG)
+![]IM(https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%208.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file as input and with 1 reducers took the least time to finish the job
+2. The Bz file as input and with 4 reducer has taken the maximum time
+3. For reducer 1, the Text file as input has taken the least MapReduce time
+4. For reducer 2, the Bz file as input has taken the least MapReduce time
+5. For reducer 4, the Text file as input has taken the least MapReduce time
+6. For reducer 8, the Text file as input has taken the least MapReduce time
+7. Hence the Text input file works the best than the Bz file (except for 2 reducer Text file)
+
+## Analysis for Test 8
+This type of a MapReduce process is independent of the input file format.
+So, the Test 8 falls is more efficient as compared to Test 7 and Test 9
+
+# TEST 9
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%209%20graph.JPG)
+![]IM(https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%209.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file as input and with 8 reducers took the least time to finish the job
+2. The Text file as input and with 2 reducer has taken the maximum time
+3. For reducer 1, the Text file as input has taken the least MapReduce time
+4. For reducer 2, the Bz file as input has taken the least MapReduce time
+5. For reducer 4, the Text file as input has taken the least MapReduce time
+6. For reducer 8, the Text file as input has taken the least MapReduce time
+7. Hence the Text input file works the best the Bz file (except for 2 reducer Text file)
+## Analysis for Test 9
+The text file with 8 reducers performs efficiently for 1264 splits, but the data mode is at risk, in reality Bz should have the first occurance.
+The observed pattern is :
+Test 8,
+Test 7
+Test 9
+But in reality it should be: 
+Test 8 
+Test 9
+Test 7
+
+# TEST 10
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2010%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2010.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file as input and with 2 reducers has taken the least time to complete the job.
+2. The Text file as input and with 1 reducers has taken the maximum time to complete the job.
+3.  Hence the Text file works with 2R
+
+## Analysis for Test 10:
+The 2 reducer are best suited for the 256 mb block size for 632 splits .
+
 
 
 
