@@ -25,7 +25,7 @@ The Text file as input and with 4 reducers is consuming the least MapReduce time
 6. For reducer 4, Gz file as input has taken the least MapReduce time
 7. For reducer 8, Bz file as input has taken the least MapReduce time
 8. Hence the Text and Gz input files are more efficient than the Bz file (except for 8 reducer Bz)  
-#Analysis  for Test 2
+## Analysis  for Test 2
 This MapReduce process is not dependent on the format of the input.
 However, this is the best MapReduce process for having a low MapReduce time which is very effective and we didn't got such outcomes from the result of the Test 2 that is due to the excessive number of failures seen in the MapReduce procedure. It might be taken into consideration because of poor machine arrangement. The procedure is quicker because of the quick transfer rate between the input of the reducer and the output of the map. (Page no. 126)
 
