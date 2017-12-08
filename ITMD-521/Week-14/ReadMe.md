@@ -120,7 +120,7 @@ The least time is consumed by the text file with 2 reducers for data of 169gb bu
 
 # TEST 8
 ![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%208%20graph.JPG)
-![IM[(https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%208.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%208.JPG)
 
 ## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
 1. The Text file as input and with 1 reducers took the least time to finish the job
