@@ -67,6 +67,26 @@ Now, the size of the file is really huge upto 103 GB so, the BZ file with 2 redu
 Th reason as to why the GZ file as input and with 2 reducer has taken the maximum time is because  there can be only one split in the GZ at a time. Due to this the MapReduce time is increased.
 But, the Text file did not show upto 770 splits and this might affect the datanodes.
 
+# TEST 5
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%205%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%205.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file as input and with 2 reducers took the least time to finish the job
+2. The Gz file as input and with 1 reducer has taken the maximum time
+3. For reducer 1, the Text file as input has taken the least MapReduce time
+4. For reducer 2, the Text file as input has taken the least MapReduce time
+5. For reducer 4, the Text file as input has taken the least MapReduce time
+6. For reducer 8, the Text file as input has taken the least MapReduce time
+7. Hence the Text input file is the most efficient than the Gz and Bz file.  
+
+## Analysis for Test 5:
+Here, the input file format is independent of the kind of MapReduce process. So, among Test 4, Test 5 and Test 6 the output for the intermediate compression with combiner should be the best for a 103 gb data. Anything can be the best file format. 
+Therefore, only one reducer is the good fit for this data.
+This is the best test amongst the Test 5, Test 6 and Test 4 in the cluster and it is also true.
+
+
+
 
 
 
