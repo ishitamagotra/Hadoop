@@ -50,6 +50,23 @@ Test 2(most efficient)
 Test 3
 Test 1 
 
+# TEST 4
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%204%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%204.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1.  The Bz file as input and with 2 reducers took the least time to finish the job
+2. The Gz file as input and with 2 reducers has taken the maximum time
+3. For reducer 1, the Bz file as input has taken the least MapReduce time
+4. For reducer 2, the Bz file as input has taken the least MapReduce time
+5. For reducer 4, Bz and Text file as input has taken the least MapReduce time rather they took the same time.
+6. For reducer 8, Textfile as input has taken the least MapReduce time
+7. Hence the Bz input file is the more efficient than the Gz file and Text file (except for 8 Reducer Bz)  
+## Analysis for Test 4
+Now, the size of the file is really huge upto 103 GB so, the BZ file with 2 reducers have best efficiency when compared to all the map reduce process time.
+Th reason as to why the GZ file as input and with 2 reducer has taken the maximum time is because  there can be only one split in the GZ at a time. Due to this the MapReduce time is increased.
+But, the Text file did not show upto 770 splits and this might affect the datanodes.
+
 
 
 
