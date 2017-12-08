@@ -120,7 +120,7 @@ The least time is consumed by the text file with 2 reducers for data of 169gb bu
 
 # TEST 8
 ![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%208%20graph.JPG)
-![]IM(https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%208.JPG)
+![IM[(https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%208.JPG)
 
 ## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
 1. The Text file as input and with 1 reducers took the least time to finish the job
@@ -171,12 +171,64 @@ Test 7
 The 2 reducer are best suited for the 256 mb block size for 632 splits .
 
 
+# TEST 11
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2011%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2011.JPG)
 
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file with 1 reducers has taken least time taken to complete the job
+2. The Text file as input and with 4 reducers has taken the maximum time to complete the job
+3. Hence the Text file works with 1 reducer with compression
+## Analysis of Test 11 
+Since it is intermediate compression, 1 reducer is perfect for the block size of 256 Mb for 632 splits. But inefficiency is seen in the results when compared with Test 10 and Test 12. 
 
+# TEST 12
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2012%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2012.JPG)
 
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file with 4 reducers has taken least time taken to complete the job
+2. The Text file as input and with 2 reducers has taken the maximum time to complete the job
+ 3. Hence the Text file works with 4 reducers with combiner
 
+## Analysis Test 12 
+In this test, 4 reducers are suitable for a block size of 256 Mb for 632 splits. With proper observation this is first amongst Test 10 test, Test 11 and Test 12
 
+# TEST 13
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2013%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2013.JPG)
 
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+
+1. The Text file with 2 reducers has taken least time taken to complete the job
+2. The Text file as input and with 1 reducers has taken the maximum time to complete the job
+3. Hence the Text file works with 2 reducers with combiner
+## Analysis for Test 13:
+In this test 2 reducers are suitable for a block size of 512 Mb for 316 splits. It falls last amongst Test 13,  Test 14 and Test 15.
+
+# TEST 14
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2014%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2014.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file with 2 reducers has taken least time taken to complete the job
+2. The Text file as input and with 1 reducers has taken the maximum time to complete the job
+3. Hence the Text file works with 2 reducers with combiner
+
+## Analysis Test 14
+Since this is intermediate compression, it is independent of the file format, so 2 reducer is the best suited for it.
+
+# TEST 15
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2015%20graph.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%2015.JPG)
+
+## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
+1. The Text file with 1 reducers has taken least time taken to complete the job
+2. The Text file as input and with 8 reducers has taken the maximum time to complete the job
+3. Hence the Text file works with 1 reducers with combiner
+
+## Analysis for Test 15
+In this test, 1 reducer is suitable for a block size of 512 Mb for 316 splits. With proper observation, it falls first amongst Test 13, Test 14 and Test 15
 
 
 
