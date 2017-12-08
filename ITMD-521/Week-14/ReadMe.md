@@ -104,7 +104,7 @@ Here the test reside under the second position amongst Test 4, Test 5 and Test 6
 
 # TEST 7
 ![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%207%20graph.JPG)
-![]IM(https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%207.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%207.JPG)
 
 ## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
 1. The Text file as input and with 2 reducers took the least time to finish the job
@@ -137,7 +137,7 @@ So, the Test 8 falls is more efficient as compared to Test 7 and Test 9
 
 # TEST 9
 ![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%209%20graph.JPG)
-![]IM(https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%209.JPG)
+![IM](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%209.JPG)
 
 ## So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
 1. The Text file as input and with 8 reducers took the least time to finish the job
