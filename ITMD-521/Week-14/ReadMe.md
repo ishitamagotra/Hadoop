@@ -239,3 +239,7 @@ In this test, 1 reducer is suitable for a block size of 512 Mb for 316 splits. W
 3. For Text files, with 4 reducers, with combiners and also with intermediate compression runs faster than other tests.
 4. For Bz files Tests with 1 reducer, with combiner and also with intermediate compression executes faster than other tests. 
 
+# CONCLUSION
+1. Even if the Map Reduce is capable of reading and writing uncompressed data, it is highly beneficial to compress the intermediate map output. The map output is compressed which provides performance gain and the volume of data transfer is reduced..
+2. With the help of combiners, the mappers output is reduced which is fed to reducers and also each mapper output is filtered by the combiners and this reduced  the volume of data  that is fed to reducers. Even in this case execution time will decrease.
+3. With an increase in the size of the block the execution time is decreased. When the size of dataset is huge, using block of bigger size is very helpful. Because, the data that is handled by the mapper and reduced is also increased. So, there can be decrease in execution time.
