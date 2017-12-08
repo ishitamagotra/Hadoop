@@ -14,8 +14,8 @@
 The Text file as input and with 4 reducers is consuming the least MapReduce time because there are 69 splits in the text file which are processed in a parallel fashion. Now, with the data having an input memory of 8.4 gb Text file with 8 reducers would function in the best manner. (Last paragraph of Page no. 123)
 
 # TEST 2
-! [I M](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%202%20graph.JPG)
-! [I M](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%202.JPG)
+![I M](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%202%20graph.JPG)
+![I M](https://github.com/illinoistech-itm/imagotra/blob/master/ITMD-521/Week-14/Test%202.JPG)
 
 1. So from the graph I have observed that the Map Reduce time is descending and these are the following observations,
 2. The Gz file as input and with 2 reducers took the least time to finish the job
